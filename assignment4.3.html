@@ -1,0 +1,34 @@
+<!DOCUMENTTYPE HTML>
+	<html>
+<head>
+<title>Assignment4.3</title>
+<style type="text/css"></style>
+</head>
+<body>
+<h1 style="color: blue;"> This is Assignment 4.3</h1>
+<p style="color: blue;"> <b>Assignment:</b><br>
+Create a div and add an image inside a div box.<br>
+ The image should change its border radius on hover<br>
+ Use Transition + Transform on hover it should animate the div box with width of 500px and height 0f 400px.<br>
+<!-- internal style  psudo property hover-->
+<!-- animation for Transition and transform on hover and image border-radius changes during hover-->
+<style>
+
+
+div:hover {
+	background-color: green;
+color:white;
+width:500px;
+height:400px;
+-webkit-transition: width 3s, height 6s;
+-webkit-transform: rotate(7deg);
+}
+img:hover{
+	border-radius: 40px;
+}
+</style>
+
+<div> <img src='satellite.jpg'/> </div><!-- image inside div box -->
+
+</body>
+</html>
